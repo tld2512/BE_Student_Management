@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3fe4498b-e04d-4157-b61a-4422a962c03f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectId" id="1VNTAtyRE36xaZbkvuATQA0BufT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysql.env" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo.main" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+          <ENTRY IS_ENABLED="true" PARSER="env" PATH="mysql.env" />
+        </ENTRIES>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.StudentManagementApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@6c30ed92" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fe4498b-e04d-4157-b61a-4422a962c03f" name="Default Changelist" comment="" />
+      <created>1577092412394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577092412394</updated>
+      <workItem from="1577092417261" duration="2223000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="799" y="282" width="1034" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577094353331">
+      <screen x="0" y="27" width="1861" height="1053" />
+    </state>
+    <state x="799" y="282" width="1034" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1861.1053@0.27.1861.1053" timestamp="1577094353331" />
+    <state x="698" y="331" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1577093477165">
+      <screen x="0" y="27" width="1861" height="1053" />
+    </state>
+    <state x="698" y="331" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1861.1053@0.27.1861.1053" timestamp="1577093477165" />
+    <state x="916" y="100" width="544" height="888" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577092619604">
+      <screen x="0" y="27" width="1861" height="1053" />
+    </state>
+    <state x="916" y="100" width="544" height="888" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1861.1053@0.27.1861.1053" timestamp="1577092619604" />
+    <state x="1227" y="27" width="624" height="1053" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog" timestamp="1577093718701">
+      <screen x="0" y="27" width="1861" height="1053" />
+    </state>
+    <state x="1227" y="27" width="624" height="1053" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.27.1861.1053@0.27.1861.1053" timestamp="1577093718701" />
+    <state x="740" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577094234051">
+      <screen x="0" y="27" width="1861" height="1053" />
+    </state>
+    <state x="740" y="311" width="424" height="484" key="FileChooserDialogImpl/0.27.1861.1053@0.27.1861.1053" timestamp="1577094234051" />
+    <state width="1457" height="382" key="GridCell.Tab.0.bottom" timestamp="1577094491695">
+      <screen x="0" y="27" width="1861" height="1053" />
+    </state>
+    <state width="1457" height="382" key="GridCell.Tab.0.bottom/0.27.1861.1053@0.27.1861.1053" timestamp="1577094491695" />
+    <state width="1457" height="382" key="GridCell.Tab.0.center" timestamp="1577094491695">
+      <screen x="0" y="27" width="1861" height="1053" />
+    </state>
+    <state width="1457" height="382" key="GridCell.Tab.0.center/0.27.1861.1053@0.27.1861.1053" timestamp="1577094491695" />
+    <state width="1457" height="382" key="GridCell.Tab.0.left" timestamp="1577094491694">
+      <screen x="0" y="27" width="1861" height="1053" />
+    </state>
+    <state width="1457" height="382" key="GridCell.Tab.0.left/0.27.1861.1053@0.27.1861.1053" timestamp="1577094491694" />
+    <state width="1457" height="382" key="GridCell.Tab.0.right" timestamp="1577094491695">
+      <screen x="0" y="27" width="1861" height="1053" />
+    </state>
+    <state width="1457" height="382" key="GridCell.Tab.0.right/0.27.1861.1053@0.27.1861.1053" timestamp="1577094491695" />
+    <state width="1457" height="382" key="GridCell.Tab.1.bottom" timestamp="1577094491696">
+      <screen x="0" y="27" width="1861" height="1053" />
+    </state>
+    <state width="1457" height="382" key="GridCell.Tab.1.bottom/0.27.1861.1053@0.27.1861.1053" timestamp="1577094491696" />
+    <state width="1457" height="382" key="GridCell.Tab.1.center" timestamp="1577094491696">
+      <screen x="0" y="27" width="1861" height="1053" />
+    </state>
+    <state width="1457" height="382" key="GridCell.Tab.1.center/0.27.1861.1053@0.27.1861.1053" timestamp="1577094491696" />
+    <state width="1457" height="382" key="GridCell.Tab.1.left" timestamp="1577094491695">
+      <screen x="0" y="27" width="1861" height="1053" />
+    </state>
+    <state width="1457" height="382" key="GridCell.Tab.1.left/0.27.1861.1053@0.27.1861.1053" timestamp="1577094491695" />
+    <state width="1457" height="382" key="GridCell.Tab.1.right" timestamp="1577094491696">
+      <screen x="0" y="27" width="1861" height="1053" />
+    </state>
+    <state width="1457" height="382" key="GridCell.Tab.1.right/0.27.1861.1053@0.27.1861.1053" timestamp="1577094491696" />
+  </component>
+</project>
