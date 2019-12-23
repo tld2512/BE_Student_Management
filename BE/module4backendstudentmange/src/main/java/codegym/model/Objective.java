@@ -1,11 +1,11 @@
 package codegym.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Objective {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
     private String image;
@@ -13,6 +13,18 @@ public class Objective {
     private String status;
 
     public Objective() {
+    }
+
+    @ManyToOne
+    @JoinColumn( name = "syllabus_id")
+    private Syllabus syllabus;
+
+    public Syllabus getSyllabus() {
+        return syllabus;
+    }
+
+    public void setSyllabus(Syllabus syllabus) {
+        this.syllabus = syllabus;
     }
 
     public Long getId() {

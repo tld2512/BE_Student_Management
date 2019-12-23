@@ -1,7 +1,9 @@
 package com.example.module4backendstudentmange;
 
 import codegym.repository.SyllabusRepository;
+import codegym.service.ObjectiveService;
 import codegym.service.SyllabusService;
+import codegym.service.impl.IObjectiveService;
 import codegym.service.impl.ISyllabusService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -25,9 +27,15 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 public class Module4backendstudentmangeApplication {
 
     @Bean
-    public SyllabusService syllabusService(){
+    public SyllabusService syllabusService() {
         return new ISyllabusService();
     }
+
+    @Bean
+    public ObjectiveService objectiveService() {
+        return new IObjectiveService();
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(Module4backendstudentmangeApplication.class, args);
     }

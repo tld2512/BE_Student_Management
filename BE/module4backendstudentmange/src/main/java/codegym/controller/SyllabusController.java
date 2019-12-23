@@ -33,8 +33,8 @@ public class SyllabusController {
     }
 
     @PutMapping("/api/syllabus/")
-    public ResponseEntity<Syllabus> updateSyllabus(@RequestBody Syllabus product){
-        syllabusService.save(product);
+    public ResponseEntity<Syllabus> updateSyllabus(@RequestBody Syllabus syllabus){
+        syllabusService.save(syllabus);
         return new ResponseEntity<>(HttpStatus.OK);
     }
 }

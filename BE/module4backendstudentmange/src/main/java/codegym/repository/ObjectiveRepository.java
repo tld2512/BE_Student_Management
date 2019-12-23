@@ -1,4 +1,7 @@
 package codegym.repository;
 
-public interface ObjectiveRepository {
+import codegym.model.Objective;
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+public interface ObjectiveRepository extends PagingAndSortingRepository<Objective, Long> {
 }
