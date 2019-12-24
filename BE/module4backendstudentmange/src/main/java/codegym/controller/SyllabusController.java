@@ -20,7 +20,7 @@ public class SyllabusController {
         return  new ResponseEntity<>(syllabusList, HttpStatus.OK);
     }
 
-    @PostMapping("/api/syllabus")
+    @PostMapping("/api/syllabus/create")
     public ResponseEntity<Void> addSyllabus(@RequestBody Syllabus syllabus){
         syllabusService.save(syllabus);
         return new ResponseEntity<>(HttpStatus.CREATED);
@@ -32,7 +32,7 @@ public class SyllabusController {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @PutMapping("/api/syllabus/")
+    @PutMapping("/api/syllabus/update")
     public ResponseEntity<Syllabus> updateSyllabus(@RequestBody Syllabus syllabus){
         syllabusService.save(syllabus);
         return new ResponseEntity<>(HttpStatus.OK);

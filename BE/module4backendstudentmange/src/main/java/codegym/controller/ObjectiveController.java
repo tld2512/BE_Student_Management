@@ -17,13 +17,13 @@ public class ObjectiveController {
     @Autowired
     ObjectiveService objectiveService;
 
-    @GetMapping("/api/objective")
+    @GetMapping("/api/getobjective")
     public ResponseEntity<List<Objective>> getList(){
         List<Objective> objectives = (List<Objective>) objectiveService.findAll();
         return  new ResponseEntity<>(objectives, HttpStatus.OK);
     }
 
-    @PostMapping("/api/objective")
+    @PostMapping("/api/postobjective/create")
     public ResponseEntity<Void> addObjective(@RequestBody Objective objective){
         objectiveService.save(objective);
         return new ResponseEntity<>(HttpStatus.CREATED);
@@ -35,7 +35,7 @@ public class ObjectiveController {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @PutMapping("/api/objective/")
+    @PutMapping("/api/objective/update")
     public ResponseEntity<Syllabus> updateObjective(@RequestBody Objective objective){
         objectiveService.save(objective);
         return new ResponseEntity<>(HttpStatus.OK);
